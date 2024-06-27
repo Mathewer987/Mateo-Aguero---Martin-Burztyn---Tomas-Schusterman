@@ -7,8 +7,8 @@ public class Funcionamiento : MonoBehaviour
 {
     public GameObject[] productosArray1; // Referencia a los productos del array 1
     public GameObject[] productosArray2; // Referencia a los productos del array 2
-    private GameObject producto1;
-    private GameObject producto2;
+    public GameObject producto1;
+    public GameObject producto2;
     public Text txtPrecio1;
     public Text txtPrecio2;
 
@@ -21,6 +21,7 @@ public class Funcionamiento : MonoBehaviour
             VerificarProductos();
             OcultarTodosLosProductos();
             GenerarProductos();
+
         }
         catch (System.Exception ex)
         {
@@ -31,7 +32,8 @@ public class Funcionamiento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        producto1.SetActive(true);
+        producto2.SetActive(true);
     }
 
     void VerificarProductos()
@@ -74,16 +76,7 @@ public class Funcionamiento : MonoBehaviour
         producto2 = productosArray2[indiceProducto2];
 
         // Muestra los productos seleccionados
-        MostrarProducto(producto1);
-        MostrarProducto(producto2);
-    }
-
-    void MostrarProducto(GameObject producto)
-    {
-        if (producto != null)
-        {
-            Debug.Log($"Mostrando producto: {producto.name}");
-            producto.SetActive(true);
-        }
+        producto1.SetActive(true);
+        producto2.SetActive(true);
     }
 }

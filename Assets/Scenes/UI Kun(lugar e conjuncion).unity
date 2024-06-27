@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -208,8 +208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 100
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &627859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,8 +320,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 70
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1001 &61839874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -428,8 +424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 10
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &63196019
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,8 +837,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 110
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &197585221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1313,8 +1305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 80
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &440992641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1544,8 +1534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 130
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &516641292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1650,8 +1638,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 40
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &563505091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,21 +1680,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   productosArray1:
-  - {fileID: 61839875}
-  - {fileID: 576626492}
-  - {fileID: 2065376478}
-  - {fileID: 1874602015}
-  - {fileID: 1381115297}
-  - {fileID: 1709621389}
-  - {fileID: 45696330}
-  - {fileID: 1223969410}
+  - {fileID: 1934737519}
+  - {fileID: 1098469769}
+  - {fileID: 1546310960}
+  - {fileID: 1352678909}
+  - {fileID: 1387934215}
   - {fileID: 1830904240}
   - {fileID: 784849192}
-  - {fileID: 1387934215}
-  - {fileID: 1352678909}
-  - {fileID: 1546310960}
-  - {fileID: 1098469769}
-  - {fileID: 1934737519}
+  - {fileID: 45696330}
+  - {fileID: 1223969410}
+  - {fileID: 1709621389}
+  - {fileID: 1381115297}
+  - {fileID: 1874602015}
+  - {fileID: 2065376478}
+  - {fileID: 576626492}
+  - {fileID: 61839875}
   productosArray2:
   - {fileID: 1003563193}
   - {fileID: 2056373044}
@@ -1725,6 +1711,10 @@ MonoBehaviour:
   - {fileID: 516641290}
   - {fileID: 783543981}
   - {fileID: 1932392819}
+  producto1: {fileID: 0}
+  producto2: {fileID: 0}
+  txtPrecio1: {fileID: 0}
+  txtPrecio2: {fileID: 0}
 --- !u!4 &568508797
 Transform:
   m_ObjectHideFlags: 0
@@ -1968,8 +1958,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 20
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &601663259
 GameObject:
   m_ObjectHideFlags: 0
@@ -2183,8 +2171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 70
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &627701281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2371,8 +2357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 140
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &783543983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2493,8 +2477,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 100
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &785348928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,7 +2582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.002166748, y: 0.00048828125}
+  m_AnchoredPosition: {x: -0.0021972656, y: 0.00048828125}
   m_SizeDelta: {x: 0.0043945312, y: 0.0009765625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850743168
@@ -2730,8 +2712,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 10
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &1003563195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2836,8 +2816,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 90
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &1047483437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3079,8 +3057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 140
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1001 &1133387762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3173,8 +3149,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 120
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &1133387765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3291,8 +3265,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 80
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1001 &1352678908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3397,8 +3369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 120
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1001 &1381115296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3499,8 +3469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 50
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1001 &1387934214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3605,8 +3573,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 110
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1001 &1437953820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3699,8 +3665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 30
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &1437953823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3973,8 +3937,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 130
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &1569833129
 GameObject:
   m_ObjectHideFlags: 0
@@ -4144,8 +4106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 60
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &1691563142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4339,8 +4299,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 60
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &1756595315
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,8 +4480,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 90
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1001 &1874602014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4628,8 +4584,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 40
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &1893171568
 GameObject:
   m_ObjectHideFlags: 0
@@ -4777,8 +4731,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 150
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &1932392821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4899,8 +4851,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 150
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &1965703580
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,7 +4968,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0010986328, y: 0.00016784668}
+  m_AnchoredPosition: {x: 0.0010986328, y: 0.00018310547}
   m_SizeDelta: {x: -0.0021362305, y: 0.00033569336}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1971920337
@@ -5144,8 +5094,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 50
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &1987827655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5250,8 +5198,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 20
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!114 &2056373046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5368,8 +5314,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precio: 30
-  txtPrecio1: {fileID: 0}
-  txtPrecio2: {fileID: 0}
 --- !u!1 &2088675791
 GameObject:
   m_ObjectHideFlags: 0
