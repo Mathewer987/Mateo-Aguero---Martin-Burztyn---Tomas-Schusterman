@@ -12,7 +12,6 @@ public class Funcionamiento : MonoBehaviour
     public Text txtPrecio1;
     public Text txtPrecio2;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -78,5 +77,6 @@ public class Funcionamiento : MonoBehaviour
         // Muestra los productos seleccionados
         producto1.SetActive(true);
         producto2.SetActive(true);
+
     }
 }
