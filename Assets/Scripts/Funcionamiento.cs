@@ -9,6 +9,9 @@ public class Funcionamiento : MonoBehaviour
     public GameObject[] productosArray2; // Referencia a los productos del array 2
     private GameObject producto1;
     private GameObject producto2;
+    public Text txtPrecio1;
+    public Text txtPrecio2;
+
 
     // Start is called before the first frame update
     void Start()
