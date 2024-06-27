@@ -5,7 +5,6 @@ using UnityEngine;
 public class Productos : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject[] productos;
     void Start()
     {
         
