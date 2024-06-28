@@ -75,6 +75,8 @@ public class Funcionamiento : MonoBehaviour
         producto1 = productosArray1[indiceProducto1];
         producto2 = productosArray2[indiceProducto2];
         StartCoroutine(WaitForMilliseconds());
+        txtPrecio1.text = producto1.GetComponent<ProductPrices>().precio.ToString();
+        txtPrecio2.text = producto2.GetComponent<ProductPrices>().precio.ToString();
     }
     IEnumerator WaitForMilliseconds()
     {

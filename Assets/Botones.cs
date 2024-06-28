@@ -33,6 +33,8 @@ public class Botones : MonoBehaviour
 
     public void btnResponder()
     {
+        int valorTotal =funcionamiento.producto1.GetComponent<ProductPrices>().precio + funcionamiento.producto2.GetComponent<ProductPrices>().precio;
+
         if (InputResultado.text == "")
         {
             funcionamiento.producto1.SetActive(false);
@@ -46,7 +48,7 @@ public class Botones : MonoBehaviour
         {
             Resultado = int.Parse(InputResultado.text);
 
-            if (Resultado == 10)
+            if (Resultado == valorTotal)
             {
                 PanelJuego.SetActive(false);
                 PanelLeyenda.SetActive(false);

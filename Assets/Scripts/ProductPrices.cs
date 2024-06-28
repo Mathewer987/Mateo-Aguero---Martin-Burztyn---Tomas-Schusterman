@@ -10,7 +10,7 @@ public class ProductPrices : MonoBehaviour
 
     void Start()
     {
-        Ocultar();
+     
     }
     public void Ocultar()
     {
