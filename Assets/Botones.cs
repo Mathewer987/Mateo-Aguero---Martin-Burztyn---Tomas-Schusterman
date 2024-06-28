@@ -78,6 +78,8 @@ public class Botones : MonoBehaviour
         PanelJuego.SetActive(true);
         PanelLeyenda.SetActive(false);
         PanelNotificaciones.SetActive(false);
+        funcionamiento.producto1.SetActive(true);
+        funcionamiento.producto2.SetActive(true);
     }
 
     public void btnSalir()
