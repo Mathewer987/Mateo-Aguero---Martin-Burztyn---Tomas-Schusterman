@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI Kun(lugar e conjuncion).unity
+    guid: 49f0dfe8d099d14409e4d646d7379291
+  - enabled: 1
+    path: Assets/Scenes/SeleccionarJuegos.unity
+    guid: 9011afde1824c094abe6a4374b7b1e4e
   m_configObjects: {}

@@ -82,11 +82,8 @@ public class Botones : MonoBehaviour
 
     public void btnSalir()
     {
-        PanelJuego.SetActive(false);
-        PanelLeyenda.SetActive(false);
-        PanelNotificaciones.SetActive(false);
 
-
+        SceneManager.LoadScene("SeleccionarJuegos");
     }
 
     public void btnVolverAJugar()
