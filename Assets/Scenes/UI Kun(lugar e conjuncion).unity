@@ -4635,6 +4635,7 @@ MonoBehaviour:
   txtBtnVolverAJugar: {fileID: 1756595317}
   SeleccionarJuegos:
     m_Handle: 0
+  funcionamiento: {fileID: 568508796}
 --- !u!1001 &1932392818
 PrefabInstance:
   m_ObjectHideFlags: 0

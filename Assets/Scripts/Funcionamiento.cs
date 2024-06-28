@@ -20,7 +20,9 @@ public class Funcionamiento : MonoBehaviour
             VerificarProductos();
             OcultarTodosLosProductos();
             GenerarProductos();
-
+            // Muestra los productos seleccionados
+            producto1.SetActive(true);
+            producto2.SetActive(true);
         }
         catch (System.Exception ex)
         {
@@ -31,8 +33,7 @@ public class Funcionamiento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        producto1.SetActive(true);
-        producto2.SetActive(true);
+
     }
 
     void VerificarProductos()
@@ -73,10 +74,12 @@ public class Funcionamiento : MonoBehaviour
 
         producto1 = productosArray1[indiceProducto1];
         producto2 = productosArray2[indiceProducto2];
-
-        // Muestra los productos seleccionados
+        StartCoroutine(WaitForMilliseconds());
+    }
+    IEnumerator WaitForMilliseconds()
+    {
+        yield return new WaitForSeconds(.05f);
         producto1.SetActive(true);
         producto2.SetActive(true);
-
     }
 }

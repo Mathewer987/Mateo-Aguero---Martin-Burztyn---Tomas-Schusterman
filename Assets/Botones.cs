@@ -14,7 +14,7 @@ public class Botones : MonoBehaviour
     public Text txtBtnVolverAJugar;
     public Scene SeleccionarJuegos;
     int Resultado;
-
+    public Funcionamiento funcionamiento;
 
 
     // Start is called before the first frame update
@@ -35,8 +35,11 @@ public class Botones : MonoBehaviour
     {
         if (InputResultado.text == "")
         {
+            funcionamiento.producto1.SetActive(false);
+            funcionamiento.producto2.SetActive(false);
             PanelJuego.SetActive(false);
             PanelLeyenda.SetActive(true);
+            Debug.Log("magic");
         }
 
         else if (InputResultado.text != "")
@@ -50,6 +53,8 @@ public class Botones : MonoBehaviour
                 PanelNotificaciones.SetActive(true);
                 EstadoResultado.text = "La respuesta es correcta";
                 txtBtnVolverAJugar.text = "Reiniciar el desafío";
+                funcionamiento.producto1.SetActive(false);
+                funcionamiento.producto2.SetActive(false);
             }
 
             else
@@ -59,6 +64,8 @@ public class Botones : MonoBehaviour
                 PanelNotificaciones.SetActive(true);
                 EstadoResultado.text = "La respuesta es incorrecta";
                 txtBtnVolverAJugar.text = "Volver a intentarlo";
+                funcionamiento.producto1.SetActive(false);
+                funcionamiento.producto2.SetActive(false);
 
             }
         }
@@ -87,6 +94,8 @@ public class Botones : MonoBehaviour
             PanelJuego.SetActive(true);
             PanelLeyenda.SetActive(false);
             PanelNotificaciones.SetActive(false);
+            funcionamiento.producto1.SetActive(true);
+            funcionamiento.producto2.SetActive(true);
         }
 
         else if (txtBtnVolverAJugar.text == "Reiniciar el desafío")
