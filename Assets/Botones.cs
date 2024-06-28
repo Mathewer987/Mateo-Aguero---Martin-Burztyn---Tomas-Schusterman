@@ -102,7 +102,7 @@ public class Botones : MonoBehaviour
 
         else if (txtBtnVolverAJugar.text == "Reiniciar el desafío")
         {
-            //nueva secuencia de cosas
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
